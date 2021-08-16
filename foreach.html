@@ -8,13 +8,12 @@
 </head>
 <body>
     <script>
-        for(i = 1; i<=5; i++){
-            for(j= 1; j<=5; j++){
-                document.write("Hai")
-            }
-            document.write("<br>")
-        }
+        var nama = ["aji","adi","aci","abi","aki"]
+        var angka = [1,2,3,4,5]
 
+        nama.forEach(function(e, i) {
+            console.log('mahasiswa ke-' + (i+1) + ' adalah :' + e);
+        })
     </script>
 </body>
-</html>
+</html> 
